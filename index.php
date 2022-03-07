@@ -22,11 +22,11 @@
 
     <div class="content">
 
-        <form action="/action_page.php">
+    <form action="/action_page.php">
             <label for="fname">Gebruikersnaam:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" name="username" required><br>
             <label for="lname">Wachtwoord:</label><br>
-            <input type="text" id="lname" name="lname"><br>
+            <input type="text" name="password" required><br>
             <input type="submit" value="Verstuur">
         </form>
 
