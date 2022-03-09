@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vista Cars</title>
+    <title>Vista Cars </title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image" href="./fotos/auto.png">
+    <link rel="icon" type="image" href="./fotos/icon2.png">
 </head>
 
-<body>
+<body class="background_index">
 
     <div class="header_image">
         <img class="logo" src="./fotos/logo2.png" alt="Vista Cars logo">
