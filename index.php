@@ -23,11 +23,11 @@
     <div class="content">
 
         <form action="/action_page.php">
-            <label for="fname">Gebruikersnaam:</label><br>
-            <input type="text" name="username" required><br>
-            <label for="lname">Wachtwoord:</label><br>
-            <input type="text" name="password" required><br>
-            <input type="submit" value="Verstuur">
+            <label class="text_form" for="fname">Gebruikersnaam</label><br>
+            <input class="input_form" type="text" name="username" required><br>
+            <label class="text_form"  for="lname">Wachtwoord</label><br>
+            <input class="input_form"  type="text" name="password" required><br>
+            <input class="button" type="submit" value="Verstuur">
         </form>
 
     </div>
