@@ -22,7 +22,7 @@
 
     <div class="content">
 
-    <form action="/action_page.php">
+        <form action="/action_page.php">
             <label for="fname">Gebruikersnaam:</label><br>
             <input type="text" name="username" required><br>
             <label for="lname">Wachtwoord:</label><br>

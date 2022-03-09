@@ -5,11 +5,11 @@ body {
 }
 
 .header_image {
- display: inline-block;
- margin-left: 2%;
+  display: inline-block;
+  margin-left: 2%;
 }
-  
-.header_text{
+
+.header_text {
   display: inline-block;
   margin-left: 3%;
 
@@ -31,8 +31,9 @@ body {
 
 
 .content {
-  background-color: rgb(255, 255, 255);
-  opacity: 30%;
+  background-color: rgb(255, 255, 255, 0.4);
   padding: 3%;
   text-align: center;
+  width: 50%;
+  margin-left: 22%;
 }
