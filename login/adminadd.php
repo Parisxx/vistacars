@@ -20,35 +20,31 @@ add();
 
 <body class="background_adminadd">
 
+<!-- START HEADER-->
     <div class="header_image">
         <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
     </div>
     <div class="header_text">
         <h1 class="title_yellow"> Vista Cars</h1>
     </div>
+<!-- END HEADER-->
 
+ <!-- START REGISTRATIE-->
 
     <div class="content_yellow">
 
-        <form action="adminadd.php">
-
+        <form action="adminadd.php" method="post">
             <label class="text_form_yellow">Gebruikersnaam</label><br>
-
             <input class="input_form_yellow" type="text" name="username" required><br>
-
             <label class="text_form_yellow">Wachtwoord</label><br>
-
             <input class="input_form_yellow"  type="password" name="password" required><br>
-
             <label class="text_form_yellow">Herhaal wachtwoord</label><br>
-
-            <input class="input_form_yellow"  type="password" name="password" required><br>
-
+            <input class="input_form_yellow"  type="password" name="confirm" required><br>
             <input class="button" type="submit" value="Verstuur">
         </form>
 
     </div>
-
+<!-- END REGISTRATIE-->
 
 </body>
 
