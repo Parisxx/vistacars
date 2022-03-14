@@ -1,3 +1,11 @@
+<?php
+session_start();
+include("includes/functions.php");
+login_user($conn);
+errors();
+add();
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -22,11 +30,15 @@
 
     <div class="content">
 
-        <form action="/action_page.php">
-            <label class="text_form" for="fname">Gebruikersnaam</label><br>
+        <form action="index.php">
+            <label class="text_form">Gebruikersnaam</label><br>
+
             <input class="input_form" type="text" name="username" required><br>
-            <label class="text_form"  for="lname">Wachtwoord</label><br>
-            <input class="input_form"  type="text" name="password" required><br>
+
+            <label class="text_form">Wachtwoord</label><br>
+
+            <input class="input_form"  type="password" name="password" required><br>
+
             <input class="button" type="submit" value="Verstuur">
         </form>
 
