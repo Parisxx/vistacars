@@ -17,14 +17,16 @@ include("../includes/functions.php");
 
 <body class="background_main">
 
+<!-- START HEADER-->
     <div class="header_image">
         <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
     </div>
     <div class="header_text">
         <h1 class="title"> Vista Cars</h1>
     </div>
+<!-- END HEADER-->
 
-
+<!--START CONTENT-->
     <div class="content_main">
         <div class="buttons">
 
@@ -45,6 +47,8 @@ include("../includes/functions.php");
         </div>
 
     </div>
+
+<!-- END CONTENT-->
 
 
 </body>
