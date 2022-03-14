@@ -30,7 +30,7 @@ add();
 
     <div class="content">
 
-        <form action="index.php">
+        <form action="index.php" method="post">
             <label class="text_form">Gebruikersnaam</label><br>
 
             <input class="input_form" type="text" name="username" required><br>
