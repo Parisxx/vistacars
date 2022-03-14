@@ -41,7 +41,9 @@ include("../includes/functions.php");
             </form>
 
         </div>
-        <div class="video">
+        <div class="video" height="100" width="100" autoplay muted loop poster="../fotos/poster.png">
+        <video width="100%">
+            <source src="../videos/vistacars.mp4" type="video/mp4">
         </div>
 
     </div>
