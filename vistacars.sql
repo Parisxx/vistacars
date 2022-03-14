@@ -14,11 +14,11 @@ CREATE TABLE `login` (
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
 (1, 'paris', 'hallo');
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
-(1, 'robin', 'hallo');
+(2, 'robin', 'hallo');
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
-(1, 'vigo', 'hallo');
+(3, 'vigo', 'hallo');
 INSERT INTO `login` (`id`, `username`, `password`) VALUES
-(1, 'sven', 'hallo');
+(4, 'sven', 'hallo');
 
 
 ALTER TABLE `login`
