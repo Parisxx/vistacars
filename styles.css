@@ -130,3 +130,22 @@ body {
 .button_main:hover {
   background-color: #3b3b3b;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 500%;
+  }
+
+  .background_index {
+    background-image: url("fotos/background.png") no-repeat;
+  }
+
+  .input_form {
+    width: 300px;
+  }
+
+  .logo {
+    width: 10px;
+  }
+
+}
