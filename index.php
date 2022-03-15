@@ -32,7 +32,7 @@ add();
 <!--START LOG IN-->
     <div class="content">
 
-        <form action="" method="post">
+        <form action="index.php" method="post">
             <label class="text_form">Gebruikersnaam</label><br>
             <input class="input_form" type="text" name="username" required><br>
             <label class="text_form">Wachtwoord</label><br>
