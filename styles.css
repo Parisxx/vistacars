@@ -130,3 +130,8 @@ body {
 .button_main:hover {
   background-color: #3b3b3b;
 }
+
+.video {
+    margin-top: -21%;
+    margin-left: 37%;
+}
