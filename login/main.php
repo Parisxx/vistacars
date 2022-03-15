@@ -28,21 +28,20 @@ include("../includes/functions.php");
 
 <!--START CONTENT-->
     <div class="content_main">
-        <div class="buttons">
 
             <form action="../afsprakensysteem/index.php">
                 <input class="button_main" type="submit" value="Afspraken">
             </form>
 
             <form action="adminadd.php">
-                <input class="button_main" type="submit" value="Admin toevoegen">
+                <input class="button_main" type="submit" value="Gebruiker toevoegen">
             </form>
 
             <form action="../includes/logout.php">
                 <input class="button_main" type="submit" value="Uitloggen">
             </form>
 
-        </div>
+
 
         <div class="video">
         <video width="100%" height="300" width="300" autoplay muted loop poster="../fotos/poster.png">

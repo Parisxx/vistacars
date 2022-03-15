@@ -154,3 +154,18 @@ body {
     margin-top: -13em;
     margin-left: 37%;
 }
+
+.button_adminadd{
+  background-color: #242424;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5%;
+  width: 20%;
+  font-size: 20px;
+  margin-top: 3%;
+  float: left;
+}
+
+.button_adminadd:hover {
+  background-color: #313131;
+}
