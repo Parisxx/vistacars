@@ -131,7 +131,34 @@ body {
   background-color: #313131;
 }
 
-/*@media only screen and (max-width: 600px) {
+.video {
+    margin-top: -13em;
+    margin-left: 37%;
+}
+
+.button_adminadd{
+  background-color: #242424;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5%;
+  width: 20%;
+  font-size: 20px;
+  margin-top: 5%;
+  display: inline-block;
+  margin-left: -75%;
+}
+
+.button_adminadd:hover {
+  background-color: #313131;
+}
+
+
+.form_adminadd {
+ margin-top: -15%;
+}
+
+
+@media only screen and (max-width: 600px) {
   body {
     background-size: 500%;
   }
@@ -148,30 +175,4 @@ body {
     width: 10px;
   }
 
-}*/
-
-.video {
-    margin-top: -13em;
-    margin-left: 37%;
-}
-
-.button_adminadd{
-  background-color: #242424;
-  color: #FFFFFF;
-  border: none;
-  padding: 0.5%;
-  width: 20%;
-  font-size: 20px;
-  margin-top: 5%;
-  display: inline-block;
-  margin-left: -70%;
-}
-
-.button_adminadd:hover {
-  background-color: #313131;
-}
-
-
-.form_adminadd {
- margin-top: -15%;
 }
