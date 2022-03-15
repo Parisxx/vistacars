@@ -32,12 +32,12 @@ add();
 <!--START LOG IN-->
     <div class="content">
 
-        <form action="../login/main.php" method="post">
+        <form action="index.php" method="post">
             <label class="text_form">Gebruikersnaam</label><br>
             <input class="input_form" type="text" name="username" required><br>
             <label class="text_form">Wachtwoord</label><br>
             <input class="input_form"  type="password" name="password" required><br>
-            <input class="button" type="submit" value="Verstuur">
+            <input class="button" type="submit" name="submit" value="Verstuur">
         </form>
 
     </div>

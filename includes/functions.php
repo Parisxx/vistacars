@@ -3,36 +3,36 @@ include("db_connect.php");
 
 function adduser($conn){
     if(isset($_POST['submit'])){
-        $lastname = $_POST['username'];
+        $username = $_POST['username'];
         $password = $_POST['password'];
         $confirm = $_POST['confirm'];
 
        if(!preg_match("/^[a-zA-Z]*$/", $username)){
-            header("location: login/adminadd.php?error=invalidusername");
+            header("location: adminadd.php?error=invalidusername");
             exit();
      
         }else if(!preg_match("/^[a-zA-Z0-9]*$/", $password)){
-            header("location: login/adminadd.php?error=invalidpassword");
+            header("location: adminadd.php?error=invalidpassword");
             exit();
         }else if(!$password == $confirm){
-            header("location: login/adminadd.php?error=passworddontmatch");
+            header("location: adminadd.php?error=passworddontmatch");
         } else {
             $sql = "SELECT * FROM login WHERE username = :username";
             $stmt = $conn->prepare($sql);
             $stmt->execute(['username' => $username]);
             if($stmt->rowCount() !== 0){
-                header("location: login/adminadd.php?error=userexists");
+                header("location: adminadd.php?error=userexists");
                 exit();
             } else {
                 $query = "INSERT INTO login (username, password) VALUES(:username, :password)";
                 $stmt = $conn->prepare($query);
                 if(!$stmt){
-                    header("location: login/adminadd.php?error=stmtfailed");
+                    header("location: adminadd.php?error=stmtfailed");
                     exit();
                 } else {
                     $hashedpwd = password_hash($password, PASSWORD_DEFAULT);
                     $stmt->execute(['username' => $username, 'password' => $hashedpwd]);
-                    header("location: login/adminadd.php?add=user");
+                    header("location: adminadd.php?add=user");
                     }
                 }
                 }
@@ -98,11 +98,26 @@ function login_user($conn){
 
             if ($checkpwd === false) {
                 header("Location: index.php?error=wrong_password");
-                exit();
+                exit(); 
             } 
+
+            session_start();
+            if ($user['user_type'] == "admin") {
+                $_SESSION['user'] = $user['email'];
+                header("Location: admin/admin.php");
+                exit();
+            } else {
+                $_SESSION["user"] = $user['username'];
+                header("Location: login/main.php");
+                exit();
+            }
         }
     }
 }
+
+
+
+
 
 
 function logout(){

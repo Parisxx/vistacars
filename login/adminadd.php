@@ -40,7 +40,7 @@ add();
             <input class="input_form_yellow"  type="password" name="password" required><br>
             <label class="text_form_yellow">Herhaal wachtwoord</label><br>
             <input class="input_form_yellow"  type="password" name="confirm" required><br>
-            <input class="button" type="submit" value="Verstuur">
+            <input class="button" type="submit" name="submit" value="Verstuur">
         </form>
 
     </div>
