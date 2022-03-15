@@ -35,10 +35,9 @@ add();
 
         <div class="buttons">
 
-            <form action="main.php">
+           <form action="main.php">
                 <input class="button_adminadd" type="submit" value="Hoofdpagina">
             </form>
-
             <form action="adminadd.php">
                 <input class="button_adminadd" type="submit" value="Gebruiker toevoegen">
             </form>
@@ -49,7 +48,7 @@ add();
 
 
 
-        <form action="adminadd.php" method="post">
+        <form class="form_adminadd" action="adminadd.php" method="post">
             <label class="text_form_yellow">Gebruikersnaam</label><br>
             <input class="input_form_yellow" type="text" name="username" required><br>
             <label class="text_form_yellow">Wachtwoord</label><br>

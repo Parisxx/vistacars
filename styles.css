@@ -162,10 +162,16 @@ body {
   padding: 0.5%;
   width: 20%;
   font-size: 20px;
-  margin-top: 3%;
-  float: left;
+  margin-top: 5%;
+  display: inline-block;
+  margin-left: -70%;
 }
 
 .button_adminadd:hover {
   background-color: #313131;
+}
+
+
+.form_adminadd {
+ margin-top: -15%;
 }
