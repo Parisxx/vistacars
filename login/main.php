@@ -43,7 +43,7 @@ include("../includes/functions.php");
 
 
         <div class="video">
-            <video width="100%" height="300" width="300" autoplay muted loop poster="../fotos/poster.png">
+            <video autoplay muted loop poster="../fotos/poster.png">
                 <source src="../videos/vistacars.mp4" type="video/mp4">
         </div>
 

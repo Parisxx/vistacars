@@ -131,8 +131,21 @@ body {
 }
 
 .video {
-  margin-top: -13em;
-  margin-left: 37%;
+  margin-top: -12%;
+  margin-left: 24%;
+
+  position: absolute;
+  display: inline;
+
+
+}
+
+video {
+
+  width: 60%;
+  height: auto;
+
+
 }
 
 .button_adminadd {
@@ -157,8 +170,94 @@ body {
 }
 
 
-@media only screen and (max-width: 600px) {
-  body {}
+@media only screen and (max-width: 850px) {
+
+  .button_main {
+    padding: 1%;
+  }
+
+  .button {
+    padding: 1%;
+  }
+
+  .video {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
+  video {
+    width: 70%;
+  }
+
+  .content_main {
+    height: 400px;
+  }
 
 
+}
+
+@media only screen and (min-width: 1550px) {
+
+  .video {
+    margin-top: -6%;
+
+  }
+
+  .button_main {
+    margin-top: 1.5%;
+  }
+
+  video {
+    width: 50%;
+  }
+
+  .content_main {
+    height: 350px;
+  }
+
+  .button_adminadd {
+    margin-top: 1.5%;
+  }
+
+  .form_adminadd {
+    margin-top: -8%;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .button_adminadd {
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 0%;
+    margin-bottom: 1.5%;
+  }
+
+  .form_adminadd {
+    margin-top: 0%;
+  }
+
+  .button_adminadd {
+    padding: 1%;
+  }
+
+
+  .content_yellow {
+
+    height: 350px;
+  }
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .title {
+    margin-top: 0%;
+  }
+
+  .title_yellow {
+    margin-top: 0%;
+  }
 }
