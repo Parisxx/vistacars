@@ -1,18 +1,30 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-size: 101%;
+  /*background-size: 101%;*/
 }
 
 .background_index {
   background-image: url("fotos/background.png");
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 .background_main {
   background-image: url("fotos/background_blue.png");
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 .background_adminadd {
   background-image: url("fotos/background_yellow.png");
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 
@@ -156,22 +168,11 @@ body {
  margin-top: -15%;
 }
 
-/*
+
 @media only screen and (max-width: 600px) {
   body {
-    background-size: 500%;
+
   }
 
-  .background_index {
-    background-image: url("fotos/background.png") no-repeat;
-  }
-
-  .input_form {
-    width: 300px;
-  }
-
-  .logo {
-    width: 10px;
-  }
 
 }
