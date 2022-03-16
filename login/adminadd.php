@@ -21,12 +21,11 @@ add();
 <body class="background_adminadd">
 
     <!-- START HEADER-->
-    <div class="header_image">
-        <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
-    </div>
-    <div class="header_text">
-        <h1 class="title_yellow"> Vista Cars</h1>
-    </div>
+
+    <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
+
+    <h1 class="title_yellow"> Vista Cars</h1>
+
     <!-- END HEADER-->
 
     <!-- START REGISTRATIE-->
@@ -35,7 +34,7 @@ add();
 
         <div class="buttons">
 
-           <form action="main.php">
+            <form action="main.php">
                 <input class="button_adminadd" type="submit" value="Hoofdpagina">
             </form>
             <form action="adminadd.php">

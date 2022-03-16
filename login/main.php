@@ -17,40 +17,39 @@ include("../includes/functions.php");
 
 <body class="background_main">
 
-<!-- START HEADER-->
-    <div class="header_image">
-        <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
-    </div>
-    <div class="header_text">
-        <h1 class="title"> Vista Cars</h1>
-    </div>
-<!-- END HEADER-->
+    <!-- START HEADER-->
 
-<!--START CONTENT-->
+    <img class="logo" src="../fotos/logo2.png" alt="Vista Cars logo">
+
+    <h1 class="title"> Vista Cars</h1>
+
+    <!-- END HEADER-->
+
+    <!--START CONTENT-->
     <div class="content_main">
 
-            <form action="../afsprakensysteem/index.php">
-                <input class="button_main" type="submit" value="Afspraken">
-            </form>
+        <form action="../afsprakensysteem/index.php">
+            <input class="button_main" type="submit" value="Afspraken">
+        </form>
 
-            <form action="adminadd.php">
-                <input class="button_main" type="submit" value="Gebruiker toevoegen">
-            </form>
+        <form action="adminadd.php">
+            <input class="button_main" type="submit" value="Gebruiker toevoegen">
+        </form>
 
-            <form action="../includes/logout.php">
-                <input class="button_main" type="submit" value="Uitloggen">
-            </form>
+        <form action="../includes/logout.php">
+            <input class="button_main" type="submit" value="Uitloggen">
+        </form>
 
 
 
         <div class="video">
-        <video width="100%" height="300" width="300" autoplay muted loop poster="../fotos/poster.png">
-            <source src="../videos/vistacars.mp4" type="video/mp4">
+            <video width="100%" height="300" width="300" autoplay muted loop poster="../fotos/poster.png">
+                <source src="../videos/vistacars.mp4" type="video/mp4">
         </div>
 
     </div>
 
-<!-- END CONTENT-->
+    <!-- END CONTENT-->
 
 
 </body>

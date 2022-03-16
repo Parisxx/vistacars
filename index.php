@@ -20,29 +20,28 @@ add();
 
 <body class="background_index">
 
-<!-- START HEADER-->
-    <div class="header_image">
-        <img class="logo" src="./fotos/logo2.png" alt="Vista Cars logo">
-    </div>
-    <div class="header_text">
-        <h1 class="title"> Vista Cars</h1>
-    </div>
-<!-- END HEADER-->
+    <!-- START HEADER-->
 
-<!--START LOG IN-->
+    <img class="logo" src="./fotos/logo2.png" alt="Vista Cars logo">
+
+    <h1 class="title"> Vista Cars</h1>
+
+    <!-- END HEADER-->
+
+    <!--START LOG IN-->
     <div class="content">
 
         <form action="index.php" method="post">
             <label class="text_form">Gebruikersnaam</label><br>
             <input class="input_form" type="text" name="username" required><br>
             <label class="text_form">Wachtwoord</label><br>
-            <input class="input_form"  type="password" name="password" required><br>
+            <input class="input_form" type="password" name="password" required><br>
             <input class="button" type="submit" name="submit" value="Verstuur">
         </form>
 
-        
+
     </div>
-<!--END LOG IN-->
+    <!--END LOG IN-->
 
 </body>
 
